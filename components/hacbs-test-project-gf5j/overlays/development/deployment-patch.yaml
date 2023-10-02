@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hacbs-test-project-gf5j
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/quay-or-not-to-quay/nbe-e2e-mpig-tenant/integ-app-druw/hacbs-test-project-gf5j@sha256:8ca41f2b397b65cb2f5b24021a5ac7548e7a5a8fe65b336777a2288f114b867a
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
